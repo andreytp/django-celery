@@ -1,0 +1,1 @@
+[{"model": "forgot_lessons_search.notificationslog", "pk": 1, "fields": {"customer": 5, "session": 9, "customer_email": "has.notified.overdue@session", "send_date": "2032-01-01T15:00:00Z"}}, {"model": "forgot_lessons_search.notificationslog", "pk": 2, "fields": {"customer": 5, "session": 10, "customer_email": "has.notified.overdue@session", "send_date": "2032-01-01T15:00:00Z"}}]
