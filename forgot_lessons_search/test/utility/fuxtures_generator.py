@@ -1,6 +1,7 @@
 from datetime import datetime, timedelta
 from re import U
 from unittest.mock import patch
+from unittest import skip
 
 from django.contrib.auth.models import User
 from django.core import serializers
@@ -22,6 +23,7 @@ from .constants import CUSTOMER_HAS_OVERDUE_SESSION, FIXTURES_PATH
 from .constants import CUSTOMER_HAS_NOT_OVERDUE_SESSION
 from .constants import CUSTOMER_HAS_NOTIFIED_OVERDUE_SESSION
 
+@skip("Only use when change test cases")
 @freeze_time('2032-01-01 15:00')
 class TestFuxtureGenerator(TestCase):
     
