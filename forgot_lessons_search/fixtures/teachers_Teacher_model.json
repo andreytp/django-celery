@@ -1,1 +1,68 @@
-[{"model": "teachers.teacher", "pk": 2, "fields": {"user": 4, "teacher_photo": "teachers/image_7de5adH.jpg", "teacher_photo_cropping": "37,0,93,56", "teacher_avatar_cropping": "37,0,93,56", "title": "Rerum quo aut officia maiores la", "announce": "Saepe similique modi adipisci dolorum provident. Dolorum illum illum debitis consequatur beatae distinctio. Temporibus odit ullam a assumend", "active": 1, "allowed_lessons": [1, 7, 8, 9, 10, 11, 12]}}, {"model": "teachers.teacher", "pk": 1, "fields": {"user": 2, "teacher_photo": "teachers/image_9mCLxfB.jpg", "teacher_photo_cropping": "37,0,93,56", "teacher_avatar_cropping": "37,0,93,56", "title": "Est consequatur quia delectus ni", "announce": "Magni quo vero suscipit laudantium dolorum quibusdam. Illo maxime nemo laborum illo. Maiores sit nesciunt incidunt omnis quibusdam corporis ", "active": 1, "allowed_lessons": [1, 7, 8, 9, 10, 11, 12]}}, {"model": "teachers.teacher", "pk": 3, "fields": {"user": 6, "teacher_photo": "teachers/image_Enk05pu.jpg", "teacher_photo_cropping": "37,0,93,56", "teacher_avatar_cropping": "37,0,93,56", "title": "Ipsa eveniet dolore fugiat id. T", "announce": "Nesciunt recusandae enim rem. Praesentium nulla aspernatur occaecati dolorum hic nulla repellendus. Rem quibusdam eligendi soluta pariatur i", "active": 1, "allowed_lessons": [1, 7, 8, 9, 10, 11, 12]}}]
+[
+    {
+        "fields": {
+            "active": 1,
+            "allowed_lessons": [
+                1,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "announce": "Ex dolorum corrupti quos hic perferendis temporibus quam. Deleniti cupiditate adipisci totam perferendis aliquid iste dolore. Possimus repel",
+            "teacher_avatar_cropping": "37,0,93,56",
+            "teacher_photo": "teachers/image_tYuXIdJ.jpg",
+            "teacher_photo_cropping": "37,0,93,56",
+            "title": "Eveniet ea voluptates ad dolorem",
+            "user": 8
+        },
+        "model": "teachers.teacher",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "active": 1,
+            "allowed_lessons": [
+                1,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "announce": "Impedit odio quae saepe beatae. Doloremque nemo quae quas ullam id praesentium aliquid quis. Vel ea cum eveniet accusamus cumque repellat. A",
+            "teacher_avatar_cropping": "37,0,93,56",
+            "teacher_photo": "teachers/image_KxqPSzZ.jpg",
+            "teacher_photo_cropping": "37,0,93,56",
+            "title": "At voluptatem mollitia ut. Quaer",
+            "user": 1
+        },
+        "model": "teachers.teacher",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "active": 1,
+            "allowed_lessons": [
+                1,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "announce": "Quod dolore error accusamus sint illo atque. Necessitatibus repudiandae cupiditate esse mollitia pariatur laborum nostrum. Hic ipsam quasi p",
+            "teacher_avatar_cropping": "37,0,93,56",
+            "teacher_photo": "teachers/image_aPmH7Je.jpg",
+            "teacher_photo_cropping": "37,0,93,56",
+            "title": "Iusto nesciunt illo atque evenie",
+            "user": 7
+        },
+        "model": "teachers.teacher",
+        "pk": 2
+    }
+]

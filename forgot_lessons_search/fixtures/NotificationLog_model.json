@@ -1,1 +1,35 @@
-[{"model": "forgot_lessons_search.notificationslog", "pk": 1, "fields": {"customer": 5, "session": 9, "customer_email": "has.notified.overdue@session", "send_date": "2032-01-01T15:00:00Z"}}, {"model": "forgot_lessons_search.notificationslog", "pk": 2, "fields": {"customer": 5, "session": 10, "customer_email": "has.notified.overdue@session", "send_date": "2032-01-01T15:00:00Z"}}]
+[
+    {
+        "fields": {
+            "customer": 5,
+            "customer_email": "has.notified.overdue@session",
+            "send_date": "2032-01-01T15:00:00Z",
+            "session": 9,
+            "subscription": null
+        },
+        "model": "forgot_lessons_search.notificationslog",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "customer": 5,
+            "customer_email": "has.notified.overdue@session",
+            "send_date": "2032-01-01T15:00:00Z",
+            "session": 10,
+            "subscription": null
+        },
+        "model": "forgot_lessons_search.notificationslog",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "customer": 6,
+            "customer_email": "has.notified.overdue@subscription",
+            "send_date": "2032-01-01T15:00:00Z",
+            "session": null,
+            "subscription": 2
+        },
+        "model": "forgot_lessons_search.notificationslog",
+        "pk": 3
+    }
+]

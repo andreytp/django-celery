@@ -7,6 +7,9 @@ customers_with_overdue_sessions_signal = Signal(providing_args=['instance'])
 
 @receiver(customers_with_overdue_sessions_signal, dispatch_uid='notify_customers_overdue_session')
 def notify_customers_overdue_session(sender, **kwargs):
+    """
+    Send email notification to customers
+    """
     customer = kwargs['instance']
     owl = Owl(
         template='mail/overdue.html',
