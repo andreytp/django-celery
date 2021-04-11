@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class NotificationsLog(models.Model):
     """
     forgot_lessons_search.models.NotificationLog

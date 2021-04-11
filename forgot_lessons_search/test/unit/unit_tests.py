@@ -1,6 +1,6 @@
 from datetime import datetime
-from django.test.testcases import TestCase
 
+from django.test.testcases import TestCase
 from django.utils import timezone
 from django.utils.dateparse import parse_datetime
 from freezegun import freeze_time

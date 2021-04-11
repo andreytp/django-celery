@@ -1,14 +1,14 @@
-from market.models import Subscription
+from datetime import datetime
+
 from crm.models import Customer
 from elk.celery import app as celery
-from forgot_lessons_search.signals import customers_with_overdue_sessions_signal
-from forgot_lessons_search.utility import find_customers_with_overdued_activity, find_customers_with_overdued_sessions, get_list_overdue_subscription
-from forgot_lessons_search.utility import get_list_overdue_session
-from forgot_lessons_search.utility import add_timezone_info
-from forgot_lessons_search.utility import SUBSCRIPTION_MODEL_PK
-from forgot_lessons_search.utility import TIMELINE_ENTRY_MODEL_PK
 from forgot_lessons_search.models import NotificationsLog as Notifications
-from datetime import datetime
+from forgot_lessons_search.signals import customers_with_overdue_sessions_signal
+from forgot_lessons_search.utility import (SUBSCRIPTION_MODEL_PK, TIMELINE_ENTRY_MODEL_PK, add_timezone_info,
+                                           find_customers_with_overdued_activity,
+                                           find_customers_with_overdued_sessions, get_list_overdue_session,
+                                           get_list_overdue_subscription)
+from market.models import Subscription
 from timeline.models import Entry as TimelineEntry
 
 

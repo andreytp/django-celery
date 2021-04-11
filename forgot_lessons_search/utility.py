@@ -126,5 +126,8 @@ def find_customers_with_overdued_subscription(**kwargs) -> set[tuple[int]]:
 
 
 def find_customers_with_overdued_activity(**kwargs) -> set[tuple[int]]:
+    """
+    Union of sets of customers with overdue session and overdue subscription
+    """
     return find_customers_with_overdued_subscription(**kwargs) \
         .union(find_customers_with_overdued_sessions(**kwargs))
