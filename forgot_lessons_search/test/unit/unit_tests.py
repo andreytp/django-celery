@@ -60,8 +60,8 @@ class TestGetForgotLessons(TestCase):
         2. Test that customer hasn't overdued subscription
         3. Test that customer hasn't overdued subscription because it already notified
         """
-        self.assertTrue( get_list_overdue_subscription(self.customer_has_overdue_subscription ))
-        self.assertFalse(get_list_overdue_subscription(self.customer_has_notified_overdue_subscription ))
+        self.assertTrue(get_list_overdue_subscription(self.customer_has_overdue_subscription))
+        self.assertFalse(get_list_overdue_subscription(self.customer_has_notified_overdue_subscription))
 
     def test_there_is_customer_with_overdued_sessions(self):
         """

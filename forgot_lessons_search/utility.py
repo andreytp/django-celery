@@ -12,10 +12,9 @@ from django.utils.dateparse import parse_datetime
 from crm.models import Customer
 from timeline.models import Entry as TimelineEntry
 
-TIMELINE_ENTRY_MODEL_PK = ContentType.objects.get(model='entry').pk 
-SUBSCRIPTION_MODEL_PK = ContentType.objects.get(model='entry').pk 
-CUSTOMER_MODEL_PK = ContentType.objects.get(model='entry').pk 
- 
+TIMELINE_ENTRY_MODEL_PK = ContentType.objects.get(model='entry').pk
+SUBSCRIPTION_MODEL_PK = ContentType.objects.get(model='entry').pk
+CUSTOMER_MODEL_PK = ContentType.objects.get(model='entry').pk
 
 
 def add_timezone_info(date_time: datetime):
@@ -27,7 +26,7 @@ def add_timezone_info(date_time: datetime):
     return timezone.make_aware(parse_datetime(str_date + ' ' + str_time))
 
 
-def tuplelist_to_set(values_list: list[tuple[int]], model_pk:int) -> set[tuple[int]]:
+def tuplelist_to_set(values_list: list[tuple[int]], model_pk: int) -> set[tuple[int]]:
     """
     1. Convert list of tuples to set of tuples
     """
@@ -55,8 +54,9 @@ def get_list_overdue_session(customer: Customer, **kwargs) -> set[tuple[int]]:
         .filter(classes__is_scheduled=True) \
         .filter(is_finished=False) \
         .values_list('pk')
-        
+
     return tuplelist_to_set(timeline_entries, TIMELINE_ENTRY_MODEL_PK)
+
 
 def get_list_overdue_subscription(customer: Customer, **kwargs) -> set[tuple[int]]:
     """
@@ -79,6 +79,7 @@ def get_list_overdue_subscription(customer: Customer, **kwargs) -> set[tuple[int
         .values_list('pk')
     return tuplelist_to_set(subscriptions_entries, SUBSCRIPTION_MODEL_PK)
 
+
 def find_customers_with_overdued_sessions(**kwargs) -> set[tuple[int]]:
     """
     1. Find all overdue sessions
@@ -95,12 +96,13 @@ def find_customers_with_overdued_sessions(**kwargs) -> set[tuple[int]]:
     timeline_entries = TimelineEntry \
         .objects \
         .filter(start__lt=revision_date_max) \
-        .filter( Q(log__session__isnull=True) & Q(log__subscription__isnull=True)) \
+        .filter(Q(log__session__isnull=True) & Q(log__subscription__isnull=True)) \
         .filter(classes__is_scheduled=True) \
         .filter(is_finished=False) \
         .values_list('classes__customer__pk')
 
     return tuplelist_to_set(timeline_entries, CUSTOMER_MODEL_PK)
+
 
 def find_customers_with_overdued_subscription(**kwargs) -> set[tuple[int]]:
     """
@@ -119,7 +121,7 @@ def find_customers_with_overdued_subscription(**kwargs) -> set[tuple[int]]:
         .objects \
         .filter(is_fully_used=False) \
         .filter(buy_date__lte=revision_date_max) \
-        .filter( Q(log__session__isnull=True) & Q(log__subscription__isnull=True)) \
+        .filter(Q(log__session__isnull=True) & Q(log__subscription__isnull=True)) \
         .values_list('customer__pk')
 
     return tuplelist_to_set(subscription_entries, CUSTOMER_MODEL_PK)

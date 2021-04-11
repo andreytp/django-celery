@@ -30,6 +30,7 @@ LESSON_ID = 500
 
 GENERATOR_NAME = "'forgot_lessons_search.test.utility.fixtures_generator'"
 
+
 @skipIf(GENERATOR_NAME not in sys.argv[2], "Only use when change test cases")
 @freeze_time('2032-01-01 15:00')
 class TestFixtureGenerator(TestCase):
@@ -182,7 +183,7 @@ class TestFixtureGenerator(TestCase):
 
     def _setup_sheduled_lesson(self, customer: User, lesson: lessons.Lesson, days_delta: int = 0, is_finished: bool = False):
         """
-        Buy lesson for customer, create timeline entry and shedule class 
+        Buy lesson for customer, create timeline entry and shedule class
         """
         now_datetime = add_timezone_info(datetime.now())
         session_date = now_datetime + timedelta(days=days_delta)
@@ -195,7 +196,7 @@ class TestFixtureGenerator(TestCase):
     @patch('timeline.models.Entry.clean')
     def _create_entry(self, start_time: datetime, lesson: lessons.Lesson, is_finished: bool, clean):
         """
-        Make timeline entry record about lesson 
+        Make timeline entry record about lesson
         """
         entry = TimelineEntry(
             slots=1,
