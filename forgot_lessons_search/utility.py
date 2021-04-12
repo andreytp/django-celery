@@ -9,7 +9,6 @@ from market.models import Subscription
 from django.utils import timezone
 from django.utils.dateparse import parse_datetime
 
-from crm.models import Customer
 from timeline.models import Entry as TimelineEntry
 
 TIMELINE_ENTRY_MODEL_PK = ContentType.objects.get(model='entry').pk
@@ -34,7 +33,8 @@ def tuplelist_to_set(values_list, model_pk):
     return {*map(lambda x: (x[0], CUSTOMER_MODEL_PK,), values_list)}
 
 
-def get_list_overdue_session(customer: Customer, **kwargs) -> set[tuple[int]]:
+# def get_list_overdue_session(customer: Customer, **kwargs) -> set[tuple[int]]:
+def get_list_overdue_session(customer, **kwargs):
     """
     1. Find overdue session by customer
     2. Exclude sessions that got notifications
@@ -59,7 +59,8 @@ def get_list_overdue_session(customer: Customer, **kwargs) -> set[tuple[int]]:
     return tuplelist_to_set(timeline_entries, TIMELINE_ENTRY_MODEL_PK)
 
 
-def get_list_overdue_subscription(customer: Customer, **kwargs) -> set[tuple[int]]:
+# def get_list_overdue_subscription(customer: Customer, **kwargs) -> set[tuple[int]]:
+def get_list_overdue_subscription(customer, **kwargs):
     """
     1. Find overdue session by customer
     2. Exclude sessions that got notifications
@@ -81,7 +82,8 @@ def get_list_overdue_subscription(customer: Customer, **kwargs) -> set[tuple[int
     return tuplelist_to_set(subscriptions_entries, SUBSCRIPTION_MODEL_PK)
 
 
-def find_customers_with_overdued_sessions(**kwargs) -> set[tuple[int]]:
+# def find_customers_with_overdued_sessions(**kwargs) -> set[tuple[int]]:
+def find_customers_with_overdued_sessions(**kwargs):
     """
     1. Find all overdue sessions
     2. Exclude sessions that got notifications
@@ -105,7 +107,8 @@ def find_customers_with_overdued_sessions(**kwargs) -> set[tuple[int]]:
     return tuplelist_to_set(timeline_entries, CUSTOMER_MODEL_PK)
 
 
-def find_customers_with_overdued_subscription(**kwargs) -> set[tuple[int]]:
+# def find_customers_with_overdued_subscription(**kwargs) -> set[tuple[int]]:
+def find_customers_with_overdued_subscription(**kwargs):
     """
     1. Find all overdue subscriptions
     2. Exclude subscriptions that got notifications
@@ -128,7 +131,8 @@ def find_customers_with_overdued_subscription(**kwargs) -> set[tuple[int]]:
     return tuplelist_to_set(subscription_entries, CUSTOMER_MODEL_PK)
 
 
-def find_customers_with_overdued_activity(**kwargs) -> set[tuple[int]]:
+# def find_customers_with_overdued_activity(**kwargs) -> set[tuple[int]]:
+def find_customers_with_overdued_activity(**kwargs):
     """
     Union of sets of customers with overdue session and overdue subscription
     """
