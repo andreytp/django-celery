@@ -26,7 +26,8 @@ def add_timezone_info(date_time: datetime):
     return timezone.make_aware(parse_datetime(str_date + ' ' + str_time))
 
 
-def tuplelist_to_set(values_list: list[tuple[int]], model_pk: int) -> set[tuple[int]]:
+# def tuplelist_to_set(values_list: list[tuple[int]], model_pk: int) -> set[tuple[int]]:
+def tuplelist_to_set(values_list, model_pk):
     """
     1. Convert list of tuples to set of tuples
     """
