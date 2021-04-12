@@ -2,7 +2,7 @@ version: 2.1
 
 defaults: &defaults
   docker:
-    - image: circleci/python:3.9.2-stretch
+    - image: circleci/python:3.9.2
       environment:
         - DATABASE_URL=postgres://root:passw0rd@postgres:5432/circle_test
         - CELERY_BACKEND=redis://redis:6379
