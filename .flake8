@@ -1,4 +1,4 @@
 [flake8]
-    ignore = E501, E265
-    exclude = .git,venv,migrations
+    ignore = E501, E265, E722
+    exclude = .git,venv,migrations, bootstrap-datepicker, acc, crm, lessons, market, productions, teachers 
     max-line-length = 160

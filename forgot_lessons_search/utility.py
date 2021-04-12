@@ -1,4 +1,4 @@
-from datetime import datetime, time, timedelta
+from datetime import datetime, time
 
 from django.db.models.query_utils import Q
 from market.admin import subscriptions

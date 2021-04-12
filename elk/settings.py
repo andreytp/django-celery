@@ -63,6 +63,7 @@ def get_git_revision():
     except:
         return 'dev'
 
+
 VERSION = get_git_revision()
 
 
@@ -79,7 +80,7 @@ INSTALLED_APPS = [
     'extevents',  # integrations with external calendars, like Google's one
     'accounting',  # teacher accounting — passed classes, customer inspired cancellation etc
     'payments',  # students payment processing
-    'forgot_lessons_search', #students notification about overdue lessons
+    'forgot_lessons_search',  # students notification about overdue lessons
 
     'easy_thumbnails',
     'image_cropping',

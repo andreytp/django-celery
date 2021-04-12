@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 from unittest import skipIf
 from unittest.mock import patch
 import sys
-import os
+
 
 from django.contrib.auth.models import User
 from django.core import serializers

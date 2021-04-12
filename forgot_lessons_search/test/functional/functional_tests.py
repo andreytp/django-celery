@@ -1,5 +1,4 @@
 from unittest.mock import patch
-from time import sleep
 
 from django.core import mail
 from django.test import TestCase
@@ -9,9 +8,7 @@ from freezegun import freeze_time
 from crm.models import Customer
 from forgot_lessons_search.models import NotificationsLog as Notifications
 from forgot_lessons_search.tasks import notify_overdue_session
-from forgot_lessons_search.test.utility.constants import (CUSTOMER_HAS_NOT_OVERDUE_SESSION,
-                                                          CUSTOMER_HAS_NOTIFIED_OVERDUE_SESSION,
-                                                          CUSTOMER_HAS_OVERDUE_SESSION, CUSTOMER_HAS_OVERDUE_SUBSCRIPTION, FIXTURES_PATH)
+from forgot_lessons_search.test.utility.constants import (CUSTOMER_HAS_OVERDUE_SESSION, CUSTOMER_HAS_OVERDUE_SUBSCRIPTION, FIXTURES_PATH)
 from forgot_lessons_search.utility import get_list_overdue_session, get_list_overdue_subscription
 from mailer.owl import Owl
 
