@@ -1,0 +1,18 @@
+[
+    {
+        "fields": {
+            "active": 1,
+            "announce": "",
+            "description": "This is a master class lesson",
+            "duration": "00:30:00",
+            "host": 1,
+            "internal_name": "Ordinary master class lesson",
+            "name": "Master class lesson",
+            "photo": "",
+            "photo_cropping": "",
+            "slots": 5
+        },
+        "model": "lessons.masterclass",
+        "pk": 500
+    }
+]

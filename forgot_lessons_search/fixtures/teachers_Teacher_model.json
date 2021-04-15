@@ -1,0 +1,68 @@
+[
+    {
+        "fields": {
+            "active": 1,
+            "allowed_lessons": [
+                1,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "announce": "Ex dolorum corrupti quos hic perferendis temporibus quam. Deleniti cupiditate adipisci totam perferendis aliquid iste dolore. Possimus repel",
+            "teacher_avatar_cropping": "37,0,93,56",
+            "teacher_photo": "teachers/image_tYuXIdJ.jpg",
+            "teacher_photo_cropping": "37,0,93,56",
+            "title": "Eveniet ea voluptates ad dolorem",
+            "user": 8
+        },
+        "model": "teachers.teacher",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "active": 1,
+            "allowed_lessons": [
+                1,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "announce": "Impedit odio quae saepe beatae. Doloremque nemo quae quas ullam id praesentium aliquid quis. Vel ea cum eveniet accusamus cumque repellat. A",
+            "teacher_avatar_cropping": "37,0,93,56",
+            "teacher_photo": "teachers/image_KxqPSzZ.jpg",
+            "teacher_photo_cropping": "37,0,93,56",
+            "title": "At voluptatem mollitia ut. Quaer",
+            "user": 1
+        },
+        "model": "teachers.teacher",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "active": 1,
+            "allowed_lessons": [
+                1,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "announce": "Quod dolore error accusamus sint illo atque. Necessitatibus repudiandae cupiditate esse mollitia pariatur laborum nostrum. Hic ipsam quasi p",
+            "teacher_avatar_cropping": "37,0,93,56",
+            "teacher_photo": "teachers/image_aPmH7Je.jpg",
+            "teacher_photo_cropping": "37,0,93,56",
+            "title": "Iusto nesciunt illo atque evenie",
+            "user": 7
+        },
+        "model": "teachers.teacher",
+        "pk": 2
+    }
+]

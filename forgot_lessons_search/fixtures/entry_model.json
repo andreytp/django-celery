@@ -1,0 +1,167 @@
+[
+    {
+        "fields": {
+            "allow_besides_working_hours": true,
+            "end": "2031-12-11T20:30:00Z",
+            "is_finished": true,
+            "lesson_id": 500,
+            "lesson_type": 8,
+            "slots": 1,
+            "start": "2031-12-11T20:00:00Z",
+            "taken_slots": 1,
+            "teacher": 3
+        },
+        "model": "timeline.entry",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "allow_besides_working_hours": true,
+            "end": "2031-12-11T20:30:00Z",
+            "is_finished": true,
+            "lesson_id": 500,
+            "lesson_type": 9,
+            "slots": 5,
+            "start": "2031-12-11T20:00:00Z",
+            "taken_slots": 1,
+            "teacher": 1
+        },
+        "model": "timeline.entry",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "allow_besides_working_hours": true,
+            "end": "2031-12-18T20:30:00Z",
+            "is_finished": false,
+            "lesson_id": 500,
+            "lesson_type": 8,
+            "slots": 1,
+            "start": "2031-12-18T20:00:00Z",
+            "taken_slots": 1,
+            "teacher": 3
+        },
+        "model": "timeline.entry",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "allow_besides_working_hours": true,
+            "end": "2031-12-18T20:30:00Z",
+            "is_finished": false,
+            "lesson_id": 500,
+            "lesson_type": 9,
+            "slots": 5,
+            "start": "2031-12-18T20:00:00Z",
+            "taken_slots": 1,
+            "teacher": 1
+        },
+        "model": "timeline.entry",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "allow_besides_working_hours": true,
+            "end": "2031-12-25T20:30:00Z",
+            "is_finished": false,
+            "lesson_id": 500,
+            "lesson_type": 8,
+            "slots": 1,
+            "start": "2031-12-25T20:00:00Z",
+            "taken_slots": 1,
+            "teacher": 3
+        },
+        "model": "timeline.entry",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "allow_besides_working_hours": true,
+            "end": "2031-12-25T20:30:00Z",
+            "is_finished": false,
+            "lesson_id": 500,
+            "lesson_type": 9,
+            "slots": 5,
+            "start": "2031-12-25T20:00:00Z",
+            "taken_slots": 1,
+            "teacher": 1
+        },
+        "model": "timeline.entry",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "allow_besides_working_hours": true,
+            "end": "2032-01-08T20:30:00Z",
+            "is_finished": false,
+            "lesson_id": 500,
+            "lesson_type": 8,
+            "slots": 1,
+            "start": "2032-01-08T20:00:00Z",
+            "taken_slots": 1,
+            "teacher": 3
+        },
+        "model": "timeline.entry",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "allow_besides_working_hours": true,
+            "end": "2032-01-08T20:30:00Z",
+            "is_finished": false,
+            "lesson_id": 500,
+            "lesson_type": 9,
+            "slots": 5,
+            "start": "2032-01-08T20:00:00Z",
+            "taken_slots": 1,
+            "teacher": 1
+        },
+        "model": "timeline.entry",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "allow_besides_working_hours": true,
+            "end": "2032-01-08T20:30:00Z",
+            "is_finished": false,
+            "lesson_id": 500,
+            "lesson_type": 10,
+            "slots": 2,
+            "start": "2032-01-08T20:00:00Z",
+            "taken_slots": 1,
+            "teacher": 2
+        },
+        "model": "timeline.entry",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "allow_besides_working_hours": true,
+            "end": "2032-01-15T20:30:00Z",
+            "is_finished": false,
+            "lesson_id": 500,
+            "lesson_type": 10,
+            "slots": 2,
+            "start": "2032-01-15T20:00:00Z",
+            "taken_slots": 1,
+            "teacher": 2
+        },
+        "model": "timeline.entry",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "allow_besides_working_hours": true,
+            "end": "2032-01-22T20:30:00Z",
+            "is_finished": false,
+            "lesson_id": 500,
+            "lesson_type": 10,
+            "slots": 2,
+            "start": "2032-01-22T20:00:00Z",
+            "taken_slots": 1,
+            "teacher": 2
+        },
+        "model": "timeline.entry",
+        "pk": 7
+    }
+]

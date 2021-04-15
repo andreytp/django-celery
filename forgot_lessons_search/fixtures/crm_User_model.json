@@ -1,0 +1,146 @@
+[
+    {
+        "fields": {
+            "date_joined": "2032-01-01T15:00:00Z",
+            "email": "sneaksneak8@googleusercontent.ch",
+            "first_name": "Daphne",
+            "groups": [],
+            "is_active": true,
+            "is_staff": true,
+            "is_superuser": false,
+            "last_login": null,
+            "last_name": "Lehner",
+            "password": "BIBsKxTNNCeoupOjmbtT",
+            "user_permissions": [],
+            "username": "diller_cop"
+        },
+        "model": "auth.user",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "date_joined": "2032-01-01T15:00:00Z",
+            "email": "sleep_pitch@youtube.re",
+            "first_name": "Lydia",
+            "groups": [],
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": null,
+            "last_name": "Feil",
+            "password": "gvaDwUDabvpKvkkhzxDu",
+            "user_permissions": [],
+            "username": "Uspamalot"
+        },
+        "model": "auth.user",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "date_joined": "2032-01-01T15:00:00Z",
+            "email": "boy.job@hao123.travel",
+            "first_name": "Vernie",
+            "groups": [],
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": null,
+            "last_name": "O'Hara",
+            "password": "KWxysKNPRYpeSklPfDHw",
+            "user_permissions": [],
+            "username": "ass57"
+        },
+        "model": "auth.user",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "date_joined": "2032-01-01T15:00:00Z",
+            "email": "fancybee1@tumblr.pe",
+            "first_name": "Juana",
+            "groups": [],
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": null,
+            "last_name": "Kovacek",
+            "password": "pucilqlvauIuVQSWcrOz",
+            "user_permissions": [],
+            "username": "nutjobclimb7"
+        },
+        "model": "auth.user",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "date_joined": "2032-01-01T15:00:00Z",
+            "email": "xakholic@hao123.tel",
+            "first_name": "Sonny",
+            "groups": [],
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": null,
+            "last_name": "McClure",
+            "password": "BrHdzXilmDRyocHiFzVj",
+            "user_permissions": [],
+            "username": "bossbeep2"
+        },
+        "model": "auth.user",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "date_joined": "2032-01-01T15:00:00Z",
+            "email": "boyscoutsride1@google.museum",
+            "first_name": "Malcom",
+            "groups": [],
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": null,
+            "last_name": "Purdy",
+            "password": "CMkOJjhoYGSNTtGEZjDC",
+            "user_permissions": [],
+            "username": "ridelemin5"
+        },
+        "model": "auth.user",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "date_joined": "2032-01-01T15:00:00Z",
+            "email": "loverroot0@qq.it",
+            "first_name": "Carlyle",
+            "groups": [],
+            "is_active": true,
+            "is_staff": true,
+            "is_superuser": false,
+            "last_login": null,
+            "last_name": "Steuber",
+            "password": "oVDdBySIvUSkbIFCnaAQ",
+            "user_permissions": [],
+            "username": "uride"
+        },
+        "model": "auth.user",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "date_joined": "2032-01-01T15:00:00Z",
+            "email": "daddy59@yahoo.pm",
+            "first_name": "Wilson",
+            "groups": [],
+            "is_active": true,
+            "is_staff": true,
+            "is_superuser": false,
+            "last_login": null,
+            "last_name": "Ernser",
+            "password": "duBwvZjmeLxyUKXSZwcJ",
+            "user_permissions": [],
+            "username": "xcrunching"
+        },
+        "model": "auth.user",
+        "pk": 8
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "fields": {
+            "active": 1,
+            "announce": "",
+            "description": "",
+            "duration": "00:30:00",
+            "host": null,
+            "internal_name": "Paired lesson (beginners)",
+            "name": "Paired lesson 1/1",
+            "photo": "",
+            "photo_cropping": "",
+            "slots": 1
+        },
+        "model": "lessons.pairedlesson",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "active": 1,
+            "announce": "",
+            "description": "This is a a paired lesson",
+            "duration": "00:30:00",
+            "host": 2,
+            "internal_name": "Paired lesson",
+            "name": "Paired lesson",
+            "photo": "",
+            "photo_cropping": "",
+            "slots": 2
+        },
+        "model": "lessons.pairedlesson",
+        "pk": 500
+    }
+]
