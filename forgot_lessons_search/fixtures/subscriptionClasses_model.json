@@ -1,0 +1,182 @@
+[
+    {
+        "fields": {
+            "buy_date": "2031-12-25T15:00:00Z",
+            "buy_price": "150.00",
+            "buy_price_currency": "USD",
+            "buy_source": "subscription",
+            "customer": 2,
+            "is_fully_used": false,
+            "is_scheduled": false,
+            "lesson_type": 1,
+            "pre_start_notifications_sent_to_student": false,
+            "pre_start_notifications_sent_to_teacher": false,
+            "subscription": 1,
+            "timeline": null
+        },
+        "model": "market.class",
+        "pk": 12
+    },
+    {
+        "fields": {
+            "buy_date": "2031-12-25T15:00:00Z",
+            "buy_price": "150.00",
+            "buy_price_currency": "USD",
+            "buy_source": "subscription",
+            "customer": 2,
+            "is_fully_used": false,
+            "is_scheduled": false,
+            "lesson_type": 1,
+            "pre_start_notifications_sent_to_student": false,
+            "pre_start_notifications_sent_to_teacher": false,
+            "subscription": 1,
+            "timeline": null
+        },
+        "model": "market.class",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "buy_date": "2031-12-25T15:00:00Z",
+            "buy_price": "150.00",
+            "buy_price_currency": "USD",
+            "buy_source": "subscription",
+            "customer": 2,
+            "is_fully_used": false,
+            "is_scheduled": false,
+            "lesson_type": 1,
+            "pre_start_notifications_sent_to_student": false,
+            "pre_start_notifications_sent_to_teacher": false,
+            "subscription": 1,
+            "timeline": null
+        },
+        "model": "market.class",
+        "pk": 14
+    },
+    {
+        "fields": {
+            "buy_date": "2031-12-25T15:00:00Z",
+            "buy_price": "150.00",
+            "buy_price_currency": "USD",
+            "buy_source": "subscription",
+            "customer": 2,
+            "is_fully_used": false,
+            "is_scheduled": false,
+            "lesson_type": 1,
+            "pre_start_notifications_sent_to_student": false,
+            "pre_start_notifications_sent_to_teacher": false,
+            "subscription": 1,
+            "timeline": null
+        },
+        "model": "market.class",
+        "pk": 15
+    },
+    {
+        "fields": {
+            "buy_date": "2031-12-25T15:00:00Z",
+            "buy_price": "150.00",
+            "buy_price_currency": "USD",
+            "buy_source": "subscription",
+            "customer": 2,
+            "is_fully_used": false,
+            "is_scheduled": false,
+            "lesson_type": 1,
+            "pre_start_notifications_sent_to_student": false,
+            "pre_start_notifications_sent_to_teacher": false,
+            "subscription": 1,
+            "timeline": null
+        },
+        "model": "market.class",
+        "pk": 16
+    },
+    {
+        "fields": {
+            "buy_date": "2031-12-25T15:00:00Z",
+            "buy_price": "150.00",
+            "buy_price_currency": "USD",
+            "buy_source": "subscription",
+            "customer": 2,
+            "is_fully_used": false,
+            "is_scheduled": false,
+            "lesson_type": 8,
+            "pre_start_notifications_sent_to_student": false,
+            "pre_start_notifications_sent_to_teacher": false,
+            "subscription": 1,
+            "timeline": null
+        },
+        "model": "market.class",
+        "pk": 17
+    },
+    {
+        "fields": {
+            "buy_date": "2031-12-25T15:00:00Z",
+            "buy_price": "150.00",
+            "buy_price_currency": "USD",
+            "buy_source": "subscription",
+            "customer": 2,
+            "is_fully_used": false,
+            "is_scheduled": false,
+            "lesson_type": 8,
+            "pre_start_notifications_sent_to_student": false,
+            "pre_start_notifications_sent_to_teacher": false,
+            "subscription": 1,
+            "timeline": null
+        },
+        "model": "market.class",
+        "pk": 18
+    },
+    {
+        "fields": {
+            "buy_date": "2031-12-25T15:00:00Z",
+            "buy_price": "150.00",
+            "buy_price_currency": "USD",
+            "buy_source": "subscription",
+            "customer": 2,
+            "is_fully_used": false,
+            "is_scheduled": false,
+            "lesson_type": 10,
+            "pre_start_notifications_sent_to_student": false,
+            "pre_start_notifications_sent_to_teacher": false,
+            "subscription": 1,
+            "timeline": null
+        },
+        "model": "market.class",
+        "pk": 19
+    },
+    {
+        "fields": {
+            "buy_date": "2031-12-25T15:00:00Z",
+            "buy_price": "150.00",
+            "buy_price_currency": "USD",
+            "buy_source": "subscription",
+            "customer": 2,
+            "is_fully_used": false,
+            "is_scheduled": false,
+            "lesson_type": 7,
+            "pre_start_notifications_sent_to_student": false,
+            "pre_start_notifications_sent_to_teacher": false,
+            "subscription": 1,
+            "timeline": null
+        },
+        "model": "market.class",
+        "pk": 20
+    },
+    {
+        "fields": {
+            "buy_date": "2031-12-25T15:00:00Z",
+            "buy_price": "150.00",
+            "buy_price_currency": "USD",
+            "buy_source": "subscription",
+            "customer": 2,
+            "is_fully_used": false,
+            "is_scheduled": false,
+            "lesson_type": 9,
+            "pre_start_notifications_sent_to_student": false,
+            "pre_start_notifications_sent_to_teacher": false,
+            "subscription": 1,
+            "timeline": null
+        },
+        "model": "market.class",
+        "pk": 21
+    }
+]

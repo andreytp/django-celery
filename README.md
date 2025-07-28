@@ -25,6 +25,7 @@ For always-actual bootstrap process please consider CI configuration.
 Running a development host:
 
 ```sh
+nvm use 11.15.0
 gulp&
 ./manage.py runserver
 ```
